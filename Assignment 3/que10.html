@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Selector</title>
+</head>
+<body>
+
+    <h1>Select Your Favorite Location</h1>
+
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="india" selected>India</option> <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="california">California</option>
+            <option value="ontario">Ontario</option>
+            <option value="maharashtra" selected>Maharashtra</option> <option value="victoria">Victoria</option>
+        </select>
+        <br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="la">Los Angeles</option>
+            <option value="toronto">Toronto</option>
+            <option value="mumbai" selected>Mumbai</option> <option value="melbourne">Melbourne</option>
+        </select>
+        <br><br>
+
+        <label for="place">Favorite Tourist Place:</label>
+        <select id="place" name="place">
+            <option value="gateway">Gateway of India</option>
+            <option value="taj">Taj Mahal</option> <option value="cn-tower" selected>CN Tower</option>
+            <option value="hollywood">Hollywood Sign</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit Choices">
+    </form>
+
+    <hr>
+    
+    <p>
+        <strong>Your current selection summary:</strong> You have selected the CN Tower in Mumbai, Maharashtra, India. 
+        (Note: This is static text and won't update without JavaScript).
+    </p>
+
+</body>
+</html>
